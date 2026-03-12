@@ -1,0 +1,57 @@
+---
+title: Astro + Tailwind Demo
+---
+
+<div class="min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-gray-900">🦔 Astro Test</h1>
+      <nav>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="flex-grow">
+    <section class="bg-gradient-to-br from-blue-500 to-purple-600 text-white py-20">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-5xl font-bold mb-4">Welcome to Astro + Tailwind!</h2>
+        <p class="text-xl mb-8 text-blue-100">A simple, responsive landing page built with Astro and Tailwind CSS.</p>
+        <a href="#features" class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-gray-900 mb-12">Why Astro?</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-4xl mb-4">⚡</div>
+            <h4 class="text-xl font-semibold mb-2">Blazing Fast</h4>
+            <p class="text-gray-600">Zero JS by default for optimal performance.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-4xl mb-4">🎨</div>
+            <h4 class="text-xl font-semibold mb-2">Flexible</h4>
+            <p class="text-gray-600">Use your favorite UI framework or none at all.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="text-4xl mb-4">🚀</div>
+            <h4 class="text-xl font-semibold mb-2">Modern</h4>
+            <p class="text-gray-600">Built-in TypeScript, ESModules, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p>&copy; 2026 Astro Test Site. Built with Astro & Tailwind.</p>
+    </div>
+  </footer>
+</div>
